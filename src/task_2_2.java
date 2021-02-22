@@ -8,7 +8,14 @@ import java.util.List;
 public class task_2_2 {
 
     public static void main(String[] args) throws IOException {
+/*
+Задание 3
+Минимальное из N чисел(использовать LinkedList):
+1. Ввести с клавиатуры число N.
+2. Считать N целых чисел и заполнить ими список - метод getIntegerList.
+3. Найти минимальное число среди элементов списка - метод getMinimum.
 
+ */
         //считываем колличество вводов N
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(reader.readLine());
